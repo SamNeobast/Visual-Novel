@@ -65,9 +65,52 @@ MonoBehaviour:
     Poses: []
   Metadata:
     ids:
+    - Player
     - Mei
     - Kate
     metas:
+    - Implementation: Naninovel.SpriteCharacter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      Loader:
+        PathPrefix: Characters
+        ProviderTypes:
+        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      guid: 49e0ab31-bed8-4492-944a-9f356cb79bb3
+      customData:
+        id: 0
+      Pivot: {x: 0.5, y: 0}
+      PixelsPerUnit: 100
+      EnableDepthPass: 1
+      DepthAlphaCutoff: 0.5
+      CustomTextureShader: {fileID: 0}
+      CustomSpriteShader: {fileID: 0}
+      RenderTexture: {fileID: 0}
+      RenderRectangle:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1
+        height: 1
+      BakedLookDirection: 1
+      DisplayName: '{PlayerName}'
+      UseCharacterColor: 1
+      NameColor: {r: 0.3254717, g: 0.69101155, b: 1, a: 1}
+      MessageColor: {r: 0.8867924, g: 0.5982697, b: 0.40574938, a: 1}
+      HighlightWhenSpeaking: 0
+      HighlightCharacterCount: 0
+      SpeakingPose: 
+      NotSpeakingPose: 
+      PlaceOnTop: 1
+      HighlightDuration: 0.35
+      HighlightEasing: 1
+      MessageSound: 
+      MessageSoundPlayback: 0
+      VoiceSource: {fileID: 0}
+      LinkedPrinter: 
+      Poses: []
     - Implementation: Naninovel.SpriteCharacter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
@@ -122,8 +165,8 @@ MonoBehaviour:
       guid: d34dedac-f9fd-4da9-b879-ee1d52ec432e
       customData:
         id: 0
-      Pivot: {x: 0.5, y: 0}
-      PixelsPerUnit: 100
+      Pivot: {x: 0.2, y: 0}
+      PixelsPerUnit: 170
       EnableDepthPass: 1
       DepthAlphaCutoff: 0.5
       CustomTextureShader: {fileID: 0}
@@ -139,7 +182,7 @@ MonoBehaviour:
       DisplayName: Kate-chan
       UseCharacterColor: 1
       NameColor: {r: 0.12524877, g: 0.5471698, b: 0.09549662, a: 1}
-      MessageColor: {r: 0.0977661, g: 0.10009937, b: 0.122641504, a: 1}
+      MessageColor: {r: 0.6491114, g: 0.36187258, b: 0.7169812, a: 1}
       HighlightWhenSpeaking: 0
       HighlightCharacterCount: 0
       SpeakingPose: 

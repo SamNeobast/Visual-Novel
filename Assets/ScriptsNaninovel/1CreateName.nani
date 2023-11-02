@@ -1,0 +1,5 @@
+@back Spaceship
+@input PlayerName summary:"Яке твоє ім'я герой?"
+@stop
+Player: Я всесильний {PlayerName}
+@goto 2WokeUpOnSpaceship.WakeUp
