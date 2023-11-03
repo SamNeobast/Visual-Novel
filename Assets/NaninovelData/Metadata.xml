@@ -35,9 +35,10 @@
         &lt;Id&gt;MainBackground&lt;/Id&gt;
         &lt;Type&gt;Backgrounds&lt;/Type&gt;
         &lt;Appearances&gt;
-          &lt;string&gt;StreamingRoom&lt;/string&gt;
+          &lt;string&gt;Home&lt;/string&gt;
           &lt;string&gt;Spaceship&lt;/string&gt;
           &lt;string&gt;Cave&lt;/string&gt;
+          &lt;string&gt;City&lt;/string&gt;
         &lt;/Appearances&gt;
       &lt;/Actor&gt;
       &lt;Actor&gt;
@@ -273,11 +274,11 @@
         &lt;Type&gt;UI&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
-        &lt;Path&gt;1CreateName&lt;/Path&gt;
-        &lt;Type&gt;Scripts&lt;/Type&gt;
+        &lt;Path&gt;QuestLog&lt;/Path&gt;
+        &lt;Type&gt;UI&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
-        &lt;Path&gt;2WokeUpOnSpaceship&lt;/Path&gt;
+        &lt;Path&gt;Title&lt;/Path&gt;
         &lt;Type&gt;Scripts&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
@@ -305,7 +306,7 @@
         &lt;Type&gt;Characters/Kate&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
-        &lt;Path&gt;StreamingRoom&lt;/Path&gt;
+        &lt;Path&gt;Home&lt;/Path&gt;
         &lt;Type&gt;Backgrounds/MainBackground&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
@@ -314,6 +315,10 @@
       &lt;/Resource&gt;
       &lt;Resource&gt;
         &lt;Path&gt;Cave&lt;/Path&gt;
+        &lt;Type&gt;Backgrounds/MainBackground&lt;/Type&gt;
+      &lt;/Resource&gt;
+      &lt;Resource&gt;
+        &lt;Path&gt;City&lt;/Path&gt;
         &lt;Type&gt;Backgrounds/MainBackground&lt;/Type&gt;
       &lt;/Resource&gt;
     &lt;/Resources&gt;
