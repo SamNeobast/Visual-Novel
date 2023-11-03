@@ -166,14 +166,14 @@ MonoBehaviour:
     - name: ToastUI
       pathPrefix: UI
       guid: dd85ce99288c2f8488447fa511b1c0d6
+    - name: QuestLog
+      pathPrefix: UI
+      guid: c0b483d8baa97ba41be439cf9c5ed286
   - Id: Scripts
     Resources:
-    - name: 1CreateName
+    - name: Title
       pathPrefix: Scripts
       guid: 715a9fbf7f6525741b33c0866553ea3f
-    - name: 2WokeUpOnSpaceship
-      pathPrefix: Scripts
-      guid: 5e0d17ecd2fa6994a8ffc4f5ee96c92d
   - Id: Characters/e33e60aa-376d-468a-9862-79e90640addc
     Resources:
     - name: Happy
@@ -198,7 +198,7 @@ MonoBehaviour:
       guid: 5dcbeb15777ed3c429d092db94945de7
   - Id: Backgrounds/3a9ff865-f075-4d0e-8496-3c31d679611b
     Resources:
-    - name: StreamingRoom
+    - name: Home
       pathPrefix: Backgrounds/MainBackground
       guid: 74d51bc22ec1d604d9aa6f6c71c38d45
     - name: Spaceship
@@ -207,5 +207,8 @@ MonoBehaviour:
     - name: Cave
       pathPrefix: Backgrounds/MainBackground
       guid: 0c60bc9dbccc4bd4c900efd80829d6c9
+    - name: City
+      pathPrefix: Backgrounds/MainBackground
+      guid: 77e640698165d9340bf701311d7f0f62
   - Id: Characters/49e0ab31-bed8-4492-944a-9f356cb79bb3
     Resources: []

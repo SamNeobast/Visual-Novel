@@ -1,0 +1,79 @@
+@back Spaceship
+@input PlayerName summary:"Яке твоє ім'я герой?"
+@stop
+Player: Я всесильний {PlayerName}
+@goto .WakeUp
+
+
+# WakeUp
+@hideUI QuestLog
+@char Kate.Neutral look:right pos:0,0,7
+Kate.Neutral: {PlayerName}, що ти там бормочеш під ніс
+Player: Нічого просто задрімав
+Kate.Neutral: Тобі настільки подобається космос, що ти аж заснув?
+Player: Можна і так сказати
+Kate.Neutral: В такому випадку сходи до Mei вона хотіла тебе бачити
+@hideChars
+@hidePrinter
+@choice handler:ButtonArea button:QuestLog pos:-880,460 goto:.ClickQuestLogEnd1
+@choice handler:ButtonArea button:Map pos:830,410 goto:.Map
+@stop
+
+
+
+# Map
+@back City
+@hideChars
+@hidePrinter
+@choice handler:ButtonArea button:Home pos:-580,-160 goto:.Home
+@choice handler:ButtonArea button:Cave pos:660,-200 goto:.Cave
+@choice handler:ButtonArea button:Spaceship pos:50,-140 goto:.Spaceship
+@choice handler:ButtonArea button:QuestLog pos:-880,460 goto:.ClickQuestLogMap1
+@stop
+
+# Spaceship
+@back Spaceship
+Home, sweet home!
+@hideChars
+@hidePrinter
+@choice handler:ButtonArea button:QuestLog pos:-880,460 goto:.ClickQuestLogEnd1
+@choice handler:ButtonArea button:Map pos:830,410 goto:.Map
+@stop
+
+
+# Home
+@back Home
+Home, sweet home!
+@hideChars
+@hidePrinter
+@choice handler:ButtonArea button:QuestLog pos:-880,460 goto:.ClickQuestLogEnd1
+@choice handler:ButtonArea button:Map pos:830,410 goto:.Map
+@stop
+
+# Cave
+@back Cave
+Don't forget about cucumbers!
+@hideChars
+@hidePrinter
+@choice handler:ButtonArea button:QuestLog pos:-880,460 goto:.ClickQuestLogEnd1
+@choice handler:ButtonArea button:Map pos:830,410 goto:.Map
+@stop
+
+# ClickQuestLogEnd1
+Player: Потрібно відвідати Mei, для цього потрібно зайти на карту і обрати будинок
+@hideChars
+@hidePrinter
+@choice handler:ButtonArea button:QuestLog pos:-880,460 goto:.ClickQuestLogEnd1
+@choice handler:ButtonArea button:Map pos:830,410 goto:.Map
+@stop
+
+# ClickQuestLogMap1
+Player: Потрібно відвідати Mei, для цього потрібно зайти на карту і обрати будинок
+@hideChars
+@hideChars
+@hidePrinter
+@choice handler:ButtonArea button:Home pos:-580,-160 goto:.Home
+@choice handler:ButtonArea button:Cave pos:660,-200 goto:.Cave
+@choice handler:ButtonArea button:Spaceship pos:50,-140 goto:.Spaceship
+@choice handler:ButtonArea button:QuestLog pos:-880,460 goto:.ClickQuestLogMap1
+@stop

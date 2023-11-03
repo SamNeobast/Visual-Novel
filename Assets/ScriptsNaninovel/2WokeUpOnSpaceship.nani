@@ -1,9 +1,0 @@
-# WakeUp
-@char Kate.Neutral look:right pos:0,0,7
-Kate.Neutral: {PlayerName}, що ти там бормочеш під ніс
-Player: Нічого просто задрімав
-Kate.Neutral: Тобі настільки подобається космос, що ти аж заснув?
-Player: Можна і так сказати
-Kate.Neutral: В такому випадку сходи до Mei вона хотіла тебе бачити
-
-@stop
