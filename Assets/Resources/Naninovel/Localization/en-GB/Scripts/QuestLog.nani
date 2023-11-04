@@ -1,0 +1,22 @@
+; Ukrainian <uk> to English (United Kingdom) <en-GB> localization document for `QuestLog` naninovel script
+
+# 3c81739c
+; Немає активних завдань
+
+# a0ae04b3
+; Потрібно відвідати Mei, для цього потрібно зайти на карту і обрати будинок
+
+# a3d8e2f4
+; Потрібно знайти фіолетовий камінь
+
+# ede28d09
+; Потрібно віднести фіолетовий камінь
+
+# 332dc96f
+; Потрібно відвідати Космічну башню
+
+# a2697c7c
+; @choice handler:ButtonArea button:QuestLog pos:-880,460 goto:.ClickQuestLog
+
+# 9e94d607
+; @choice handler:ButtonArea button:Map pos:830,410 goto:Map.Map

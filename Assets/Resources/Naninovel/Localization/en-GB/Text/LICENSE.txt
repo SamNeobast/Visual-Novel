@@ -1,0 +1,2 @@
+; Ukrainian <uk> to English (United Kingdom) <en-GB> localization document for `LICENSE` managed text document
+

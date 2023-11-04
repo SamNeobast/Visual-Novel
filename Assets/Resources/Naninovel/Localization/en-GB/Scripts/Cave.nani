@@ -1,0 +1,34 @@
+; Ukrainian <uk> to English (United Kingdom) <en-GB> localization document for `Cave` naninovel script
+
+# 206fc3d4
+; Можливо варто знайти ще фіолетових камінців?
+
+# 7c19e3d4
+; @choice "Шукати" goto:.Finding
+
+# a6e3751c
+; @choice "Не хочеться"
+
+# a02a9f31
+; Player: О, печера але мені потрібно в інше місце
+
+# a97e72ae
+; Player: Десь тут має бути фіолетовий камінь
+
+# b3e6b842
+; @choice  button:QuestLog pos:-880,460 handler:ButtonArea goto:.Cave
+
+# 5399cc62
+; @choice  button:SecondQuestCaveStone pos:-116,-188 handler:ButtonArea goto:QuestLog.ClickQuestLog set:QuestNumber=3
+
+# 2c704ff
+; @choice  button:Map pos:830,410 handler:ButtonArea goto:Map.Map
+
+# 67e760c1
+; @choice  button:QuestLog pos:-880,460 handler:ButtonArea goto:QuestLog.ClickQuestLog
+
+# 2c704ff
+; @choice  button:Map pos:830,410 handler:ButtonArea goto:Map.Map
+
+# 2ea91d62
+; Player: Нічого не знайшов

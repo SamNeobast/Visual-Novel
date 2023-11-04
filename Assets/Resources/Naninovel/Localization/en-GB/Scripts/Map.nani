@@ -1,0 +1,40 @@
+; Ukrainian <uk> to English (United Kingdom) <en-GB> localization document for `Map` naninovel script
+
+# 255fe8b4
+; @choice handler:ButtonArea button:Home pos:-580,-160 goto:Home.Home
+
+# ffba0748
+; @choice handler:ButtonArea button:Cave pos:660,-200 goto:.Map
+
+# 4bc40881
+; @choice handler:ButtonArea button:Spaceship pos:50,-140 goto:Spaceship.Spaceship
+
+# 23cc0e29
+; @choice handler:ButtonArea button:QuestLog pos:-880,460 goto:.ClickQuestLogMap
+
+# 255fe8b4
+; @choice handler:ButtonArea button:Home pos:-580,-160 goto:Home.Home
+
+# a33c0fa
+; @choice handler:ButtonArea button:Cave pos:660,-200 goto:Cave.Cave
+
+# 4bc40881
+; @choice handler:ButtonArea button:Spaceship pos:50,-140 goto:Spaceship.Spaceship
+
+# 23cc0e29
+; @choice handler:ButtonArea button:QuestLog pos:-880,460 goto:.ClickQuestLogMap
+
+# 3c81739c
+; Немає активних завдань
+
+# a0ae04b3
+; Потрібно відвідати Mei, для цього потрібно зайти на карту і обрати будинок
+
+# 4c032771
+; Потрібно знайти фіолетовий камінь в печері
+
+# ede28d09
+; Потрібно віднести фіолетовий камінь
+
+# 332dc96f
+; Потрібно відвідати Космічну башню

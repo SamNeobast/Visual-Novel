@@ -1,0 +1,121 @@
+; Ukrainian <uk> to English (United Kingdom) <en-GB> localization document for `AllInOneScipt` naninovel script
+
+# e2c1cee6
+; @input PlayerName summary:"Яке твоє ім'я герой?"
+
+# 90f443a5
+; Player: Я всесильний {PlayerName}
+
+# acf856a4
+; Kate.Neutral: {PlayerName}, що ти там бормочеш під ніс
+
+# 5fbad739
+; Player: Нічого просто задрімав
+
+# a5cc9077
+; Kate.Neutral: Тобі настільки подобається космос, що ти аж заснув?
+
+# 2aa1e9f4
+; Player: Можна і так сказати
+
+# 3f44e7d7
+; Kate.Neutral: В такому випадку сходи до Mei вона хотіла тебе бачити
+
+# e8c05793
+; @choice handler:ButtonArea button:QuestLog pos:-880,460 goto:.ClickQuestLogEnd1
+
+# 9e94d607
+; @choice handler:ButtonArea button:Map pos:830,410 goto:Map.Map
+
+# 759bae66
+; @choice handler:ButtonArea button:Home pos:-580,-160 goto:.Home
+
+# f3331606
+; @choice handler:ButtonArea button:Cave pos:660,-200 goto:.Cave
+
+# a4a9c376
+; @choice handler:ButtonArea button:Spaceship pos:50,-140 goto:.Spaceship
+
+# e4115cba
+; @choice handler:ButtonArea button:QuestLog pos:-880,460 goto:.ClickQuestLogMap1
+
+# 73c66cd5
+; Home, sweet home!
+
+# e8c05793
+; @choice handler:ButtonArea button:QuestLog pos:-880,460 goto:.ClickQuestLogEnd1
+
+# f3f6acc4
+; @choice handler:ButtonArea button:Map pos:830,410 goto:.Map
+
+# 65ff312d
+; Player: Агов є хтось?
+
+# edbbf7fb
+; Mei.Neutral: О! Привіт, {PlayerName} я тебе чекала
+
+# 384441bf
+; Player: Ти щось хотіла?
+
+# 34732409
+; Mei.Neutral: Так, мені потрібний фіолетовий камінь він зуусрічається у печері. Допоможеш мені? 
+
+# 52d6f0fa
+; Player: Так звісно)
+
+# 4b037c47
+; Boom!Bomm!Boom!
+
+# b4f856bc
+; Mei.Sad: О ні! Мій проект:(
+
+# 3bf54307
+; Mei.Neutral: Я мушу бігти, перед тим як піди склади будь ласка парні речі разом
+
+# e8c05793
+; @choice handler:ButtonArea button:QuestLog pos:-880,460 goto:.ClickQuestLogEnd1
+
+# f3f6acc4
+; @choice handler:ButtonArea button:Map pos:830,410 goto:.Map
+
+# a02a9f31
+; Player: О, печера але мені потрібно в інше місце
+
+# d73c26e0
+; @choice handler:ButtonArea button:SecondQuestCaveStone pos:-116,-188 goto:.WakeUp
+
+# e8c05793
+; @choice handler:ButtonArea button:QuestLog pos:-880,460 goto:.ClickQuestLogEnd1
+
+# f3f6acc4
+; @choice handler:ButtonArea button:Map pos:830,410 goto:.Map
+
+# a5a604a9
+; Player: Потрібно відвідати Mei, для цього потрібно зайти на карту і обрати будинок
+
+# 7b05ead8
+; Player: Потрібно знайти фіолетовий камінь
+
+# e8c05793
+; @choice handler:ButtonArea button:QuestLog pos:-880,460 goto:.ClickQuestLogEnd1
+
+# 9e94d607
+; @choice handler:ButtonArea button:Map pos:830,410 goto:Map.Map
+
+# a5a604a9
+; Player: Потрібно відвідати Mei, для цього потрібно зайти на карту і обрати будинок
+
+# 7b05ead8
+; Player: Потрібно знайти фіолетовий камінь
+
+# 759bae66
+; @choice handler:ButtonArea button:Home pos:-580,-160 goto:.Home
+
+# f3331606
+; @choice handler:ButtonArea button:Cave pos:660,-200 goto:.Cave
+
+# a4a9c376
+; @choice handler:ButtonArea button:Spaceship pos:50,-140 goto:.Spaceship
+
+# e4115cba
+; @choice handler:ButtonArea button:QuestLog pos:-880,460 goto:.ClickQuestLogMap1

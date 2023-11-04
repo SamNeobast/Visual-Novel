@@ -1,0 +1,94 @@
+; Ukrainian <uk> to English (United Kingdom) <en-GB> localization document for `Home` naninovel script
+
+# 53d7115b
+; Mei.Sad: Чого прийшов?
+
+# 9ea7fbd7
+; Player: Ем, нічого
+
+# 48c68cca
+; Mei.Sad: Тобі щось потрібно від мене
+
+# 6ff922a3
+; Player: Ні, нічого
+
+# eeb2a018
+; Mei.Sad: По моєму ти не туди прийшов
+
+# 818ff218
+; Player: Вибач, уже йду геть
+
+# 97aeda3e
+; Mei.Sad: Не хочу з тобою розмовляти. Йди звідси!
+
+# 818ff218
+; Player: Вибач, уже йду геть
+
+# 70e485e1
+; Kate.Happy: Як у тебе справи?
+
+# f1d0bef
+; Player: Все добре
+
+# 4e744aaa
+; Kate.Happy: Тобі потрібна допомога?
+
+# 6ff922a3
+; Player: Ні, нічого
+
+# 38076121
+; Kate.Happy: Рада тебе бачити, але мушу бігти
+
+# acd3d245
+; Player: І я радий, папа
+
+# fab285bd
+; Kate.Happy: Дякую, минулий раз ти мені дуже допоміг
+
+# 8b308318
+; Player: Завжди радий)
+
+# 65ff312d
+; Player: Агов є хтось?
+
+# edbbf7fb
+; Mei.Neutral: О! Привіт, {PlayerName} я тебе чекала
+
+# 384441bf
+; Player: Ти щось хотіла?
+
+# 34732409
+; Mei.Neutral: Так, мені потрібний фіолетовий камінь він зуусрічається у печері. Допоможеш мені? 
+
+# 52d6f0fa
+; Player: Так звісно)
+
+# 4b037c47
+; Boom!Bomm!Boom!
+
+# b4f856bc
+; Mei.Sad: О ні! Мій проект:(
+
+# 3bf54307
+; Mei.Neutral: Я мушу бігти, перед тим як піди склади будь ласка парні речі разом
+
+# f48eacb1
+; Mei.Neutral: Ти уже його знайшов?
+
+# 3f199de
+; Player: Ні
+
+# cd7065e9
+; Mei.Neutral: Тоді поспіши
+
+# cebf51eb
+; Player: Хм, її тут немає. Потрібно подивитись у Космічній башні, можливо вона пішла до Kate
+
+# cebf51eb
+; Player: Хм, її тут немає. Потрібно подивитись у Космічній башні, можливо вона пішла до Kate
+
+# 67e760c1
+; @choice  button:QuestLog pos:-880,460 handler:ButtonArea goto:QuestLog.ClickQuestLog
+
+# 2c704ff
+; @choice  button:Map pos:830,410 handler:ButtonArea goto:Map.Map

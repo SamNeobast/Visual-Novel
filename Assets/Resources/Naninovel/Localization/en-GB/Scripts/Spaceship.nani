@@ -1,0 +1,112 @@
+; Ukrainian <uk> to English (United Kingdom) <en-GB> localization document for `Spaceship` naninovel script
+
+# acf856a4
+; Kate.Neutral: {PlayerName}, що ти там бормочеш під ніс
+
+# 5fbad739
+; Player: Нічого просто задрімав
+
+# a5cc9077
+; Kate.Neutral: Тобі настільки подобається космос, що ти аж заснув?
+
+# 2aa1e9f4
+; Player: Можна і так сказати
+
+# 3f44e7d7
+; Kate.Neutral: В такому випадку сходи до Mei вона хотіла тебе бачити
+
+# 1171bed
+; @choice handler:ButtonArea button:QuestLog pos:-880,460 goto:QuestLog.ClickQuestLog
+
+# 9e94d607
+; @choice handler:ButtonArea button:Map pos:830,410 goto:Map.Map
+
+# c7e80703
+; Kate.Sad: Чого прийшов?
+
+# 9ea7fbd7
+; Player: Ем, нічого
+
+# d281522e
+; Kate.Sad: Тобі щось потрібно від мене
+
+# 6ff922a3
+; Player: Ні, нічого
+
+# 253e31d7
+; Kate.Sad: По моєму ти не туди прийшов
+
+# 818ff218
+; Player: Вибач, уже йду геть
+
+# b56d336
+; Kate.Sad: Не хочу з тобою розмовляти. Йди звідси!
+
+# 818ff218
+; Player: Вибач, уже йду геть
+
+# 70e485e1
+; Kate.Happy: Як у тебе справи?
+
+# f1d0bef
+; Player: Все добре
+
+# 4e744aaa
+; Kate.Happy: Тобі потрібна допомога?
+
+# 6ff922a3
+; Player: Ні, нічого
+
+# 38076121
+; Kate.Happy: Рада тебе бачити, але мушу бігти
+
+# acd3d245
+; Player: І я радий, папа
+
+# fab285bd
+; Kate.Happy: Дякую, минулий раз ти мені дуже допоміг
+
+# 8b308318
+; Player: Завжди радий)
+
+# bbf89472
+; Player: Яка краса!
+
+# ca227aa9
+; Player: Стоп у мене ж є інші справи
+
+# 13960da1
+; Player: О, так ти тут. Я уже тебе обшукався
+
+# 86348e1c
+; Mei.Neutral: Вибач не думала, що ти так швидко повернешся
+
+# 10332abe
+; Kate.Neutral: {PlayerName} доречі чи не міг би ти сходити до печери і принести мені фіолетовий камінь. Він мені дуже потрібен
+
+# 7edef19c
+; Player: Mei якраз посилала мене за ним
+
+# 6e10c97c
+; Kate.Neutral: Будь ласка віддай його мені, а потім можеш і для Mei дістати
+
+# bcd514f0
+; Mei.Neutral: Ні це буде не чесно я перша його попросила
+
+# 8fed0202
+; Кому я хочу віддати камінь?
+
+# 1ac690a1
+; @choice "Віддам Mei" set:RelationsWithKate="Bad";RelationsWithMei="Good"
+
+# dff5e95b
+; @choice "Віддам Kate" set:RelationsWithKate="Good";RelationsWithMei="Bad"
+
+# 4e2ceb23
+; @choice "Залишу собі" set:RelationsWithKate="Bad";RelationsWithMei="Bad"
+
+# 1171bed
+; @choice handler:ButtonArea button:QuestLog pos:-880,460 goto:QuestLog.ClickQuestLog
+
+# 9e94d607
+; @choice handler:ButtonArea button:Map pos:830,410 goto:Map.Map
