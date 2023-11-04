@@ -1,0 +1,37 @@
+# Map
+@back City
+@hideChars
+@hidePrinter
+@if "QuestNumber==3 || QuestNumber==4"
+@choice handler:ButtonArea button:Home pos:-580,-160 goto:Home.Home
+@choice handler:ButtonArea button:Cave pos:660,-200 goto:.Map
+@choice handler:ButtonArea button:Spaceship pos:50,-140 goto:Spaceship.Spaceship
+@choice handler:ButtonArea button:QuestLog pos:-880,460 goto:.ClickQuestLogMap
+@stop
+@endIf
+
+@choice handler:ButtonArea button:Home pos:-580,-160 goto:Home.Home
+@choice handler:ButtonArea button:Cave pos:660,-200 goto:Cave.Cave
+@choice handler:ButtonArea button:Spaceship pos:50,-140 goto:Spaceship.Spaceship
+@choice handler:ButtonArea button:QuestLog pos:-880,460 goto:.ClickQuestLogMap
+@stop
+
+
+
+# ClickQuestLogMap
+@if QuestNumber==0
+Немає активних завдань
+@elseif QuestNumber==1
+Потрібно відвідати Mei, для цього потрібно зайти на карту і обрати будинок
+@elseIf QuestNumber==2 
+Потрібно знайти фіолетовий камінь в печері
+@elseIf QuestNumber==3
+Потрібно віднести фіолетовий камінь
+@elseIf QuestNumber==4
+Потрібно відвідати Космічну башню
+@endIf
+
+@goto .Map
+@stop
+
+

@@ -1,0 +1,21 @@
+# ClickQuestLog
+@if QuestNumber==0
+Немає активних завдань
+@elseIf QuestNumber==1
+Потрібно відвідати Mei, для цього потрібно зайти на карту і обрати будинок
+@elseIf QuestNumber==2
+Потрібно знайти фіолетовий камінь
+@elseIf QuestNumber==3
+Потрібно віднести фіолетовий камінь
+@elseIf QuestNumber==4
+Потрібно відвідати Космічну башню
+@endIf
+
+@hideChars
+@hidePrinter
+@choice handler:ButtonArea button:QuestLog pos:-880,460 goto:.ClickQuestLog
+@choice handler:ButtonArea button:Map pos:830,410 goto:Map.Map
+@stop
+
+
+

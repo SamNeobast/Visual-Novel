@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e98aa4b58b11e9d4ca9dd8a4bf7bb71d, type: 3}
+  m_Name: ScriptGraphState
+  m_EditorClassIdentifier: 
+  NodesState:
+  - scriptName: Title
+    position:
+      serializedVersion: 2
+      x: 2245.6
+      y: 3.2000008
+      width: 178.3999
+      height: 100.8
+  - scriptName: Map
+    position:
+      serializedVersion: 2
+      x: 1655.2
+      y: 8.800001
+      width: 272
+      height: 196.79999
+  - scriptName: QuestLog
+    position:
+      serializedVersion: 2
+      x: 2225.6
+      y: 172
+      width: 226.3999
+      height: 268.8
+  - scriptName: Cave
+    position:
+      serializedVersion: 2
+      x: 1082.4
+      y: 9.6
+      width: 268.79993
+      height: 172.8
+  - scriptName: Home
+    position:
+      serializedVersion: 2
+      x: 1370.4
+      y: 20.8
+      width: 268.79993
+      height: 148.79999
+  - scriptName: AllInOneScipt
+    position:
+      serializedVersion: 2
+      x: 1354.4
+      y: -1080
+      width: 221.59998
+      height: 724.7999
+  - scriptName: Spaceship
+    position:
+      serializedVersion: 2
+      x: 1955.2
+      y: 0
+      width: 268.80005
+      height: 220.8

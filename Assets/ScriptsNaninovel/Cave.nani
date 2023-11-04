@@ -1,0 +1,32 @@
+# Cave
+@back Cave
+@if QuestNumber==0
+Можливо варто знайти ще фіолетових камінців?
+@choice "Шукати" goto:.Finding
+@choice "Не хочеться"
+
+@elseif QuestNumber==1
+Player: О, печера але мені потрібно в інше місце
+
+@elseIf QuestNumber==2
+Player: Десь тут має бути фіолетовий камінь
+@hideChars
+@hidePrinter 
+@choice  button:QuestLog pos:-880,460 handler:ButtonArea goto:.Cave
+@choice  button:SecondQuestCaveStone pos:-116,-188 handler:ButtonArea goto:QuestLog.ClickQuestLog set:QuestNumber=3
+@choice  button:Map pos:830,410 handler:ButtonArea goto:Map.Map
+@stop
+@endIf
+@goto .ChoiseAfterDialog
+
+#ChoiseAfterDialog
+@hideChars
+@hidePrinter 
+@choice  button:QuestLog pos:-880,460 handler:ButtonArea goto:QuestLog.ClickQuestLog
+@choice  button:Map pos:830,410 handler:ButtonArea goto:Map.Map
+@stop
+
+
+#Finding
+Player: Нічого не знайшов
+@goto .ChoiseAfterDialog

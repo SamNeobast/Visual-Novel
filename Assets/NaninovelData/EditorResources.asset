@@ -174,6 +174,24 @@ MonoBehaviour:
     - name: Title
       pathPrefix: Scripts
       guid: 715a9fbf7f6525741b33c0866553ea3f
+    - name: Map
+      pathPrefix: Scripts
+      guid: b4cacf10d72945144a30b7907e87c68a
+    - name: QuestLog
+      pathPrefix: Scripts
+      guid: 1b0247787afc4354b96cc7fc96dc163b
+    - name: Cave
+      pathPrefix: Scripts
+      guid: dbc4d3e4497f1bf439c8b7b80fbb4a14
+    - name: Home
+      pathPrefix: Scripts
+      guid: 8697a96c1b18ab6448549d26e77098a9
+    - name: AllInOneScipt
+      pathPrefix: Scripts
+      guid: f19c2e01fba221e4c9b61ec6a6377d70
+    - name: Spaceship
+      pathPrefix: Scripts
+      guid: b8b5e2ce638408447ae61324e2a14956
   - Id: Characters/e33e60aa-376d-468a-9862-79e90640addc
     Resources:
     - name: Happy
@@ -211,4 +229,11 @@ MonoBehaviour:
       pathPrefix: Backgrounds/MainBackground
       guid: 77e640698165d9340bf701311d7f0f62
   - Id: Characters/49e0ab31-bed8-4492-944a-9f356cb79bb3
+    Resources: []
+  - Id: ChoiceHandlers/01373d37-e070-4506-ae8f-90233715abab
+    Resources:
+    - name: Zero
+      pathPrefix: ChoiceHandlers
+      guid: 
+  - Id: Audio
     Resources: []

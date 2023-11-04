@@ -1,0 +1,88 @@
+# WakeUp
+
+@char Kate.Neutral look:right pos:0,0,7
+Kate.Neutral: {PlayerName}, що ти там бормочеш під ніс
+Player: Нічого просто задрімав
+Kate.Neutral: Тобі настільки подобається космос, що ти аж заснув?
+Player: Можна і так сказати
+Kate.Neutral: В такому випадку сходи до Mei вона хотіла тебе бачити
+@set QuestNumber=1 
+@hideChars
+@hidePrinter
+@choice handler:ButtonArea button:QuestLog pos:-880,460 goto:QuestLog.ClickQuestLog
+@choice handler:ButtonArea button:Map pos:830,410 goto:Map.Map
+@stop
+
+
+# Spaceship
+@back Spaceship
+
+@if QuestNumber==0
+@if RelationsWithKate=="Bad"
+@char Kate.Sad look:right pos:0,0,7
+@set RandomValue=Random(1,4)
+@if RandomValue==1
+Kate.Sad: Чого прийшов?
+Player: Ем, нічого
+@elseIf RandomValue==2
+Kate.Sad: Тобі щось потрібно від мене
+Player: Ні, нічого
+@elseIf RandomValue==3
+Kate.Sad: По моєму ти не туди прийшов
+Player: Вибач, уже йду геть
+@elseIf RandomValue==4
+Kate.Sad: Не хочу з тобою розмовляти. Йди звідси!
+Player: Вибач, уже йду геть
+@endIf
+
+@elseIf RelationsWithKate=="Good"
+@char Kate.Happy look:right pos:0,0,7
+@set RandomValue=Random(1,4)
+@if RandomValue==1
+Kate.Happy: Як у тебе справи?
+Player: Все добре
+@elseIf RandomValue==2
+Kate.Happy: Тобі потрібна допомога?
+Player: Ні, нічого
+@elseIf RandomValue==3
+Kate.Happy: Рада тебе бачити, але мушу бігти
+Player: І я радий, папа
+@elseIf RandomValue==4
+Kate.Happy: Дякую, минулий раз ти мені дуже допоміг
+Player: Завжди радий)
+@endIf
+@endIf
+
+@elseif "QuestNumber==1 || QuestNumber==2 || QuestNumber==3"
+Player: Яка краса!
+Player: Стоп у мене ж є інші справи
+
+@elseIf QuestNumber==4
+@char Kate.Neutral look:right pos:0,0,7
+@char Mei.Neutral look:right pos:80,0,0
+Player: О, так ти тут. Я уже тебе обшукався
+Mei.Neutral: Вибач не думала, що ти так швидко повернешся
+Kate.Neutral: {PlayerName} доречі чи не міг би ти сходити до печери і принести мені фіолетовий камінь. Він мені дуже потрібен
+Player: Mei якраз посилала мене за ним
+Kate.Neutral: Будь ласка віддай його мені, а потім можеш і для Mei дістати
+Mei.Neutral: Ні це буде не чесно я перша його попросила
+Кому я хочу віддати камінь?
+@choice "Віддам Mei" set:RelationsWithKate="Bad";RelationsWithMei="Good"
+@choice "Віддам Kate" set:RelationsWithKate="Good";RelationsWithMei="Bad"
+@choice "Залишу собі" set:RelationsWithKate="Bad";RelationsWithMei="Bad"
+@set QuestNumber=0
+@endIf
+@goto .ChoiseAfterDialog
+
+
+
+#ChoiseAfterDialog
+@hideChars
+@hidePrinter
+@choice handler:ButtonArea button:QuestLog pos:-880,460 goto:QuestLog.ClickQuestLog
+@choice handler:ButtonArea button:Map pos:830,410 goto:Map.Map
+@stop
+
+
+
+

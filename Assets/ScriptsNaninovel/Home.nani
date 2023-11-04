@@ -1,0 +1,79 @@
+# Home
+@back Home
+
+@if QuestNumber==0
+@if RelationsWithMei=="Bad"
+@char Mei.Sad look:right pos:80,0,0
+@set RandomValue=Random(1,4)
+@if RandomValue==1
+Mei.Sad: Чого прийшов?
+Player: Ем, нічого
+@elseIf RandomValue==2
+Mei.Sad: Тобі щось потрібно від мене
+Player: Ні, нічого
+@elseIf RandomValue==3
+Mei.Sad: По моєму ти не туди прийшов
+Player: Вибач, уже йду геть
+@elseIf RandomValue==4
+Mei.Sad: Не хочу з тобою розмовляти. Йди звідси!
+Player: Вибач, уже йду геть
+@endIf
+
+@elseIf RelationsWithMei=="Good"
+@char Mei.Happy look:right pos:80,0,0
+@set RandomValue=Random(1,4)
+@if RandomValue==1
+Kate.Happy: Як у тебе справи?
+Player: Все добре
+@elseIf RandomValue==2
+Kate.Happy: Тобі потрібна допомога?
+Player: Ні, нічого
+@elseIf RandomValue==3
+Kate.Happy: Рада тебе бачити, але мушу бігти
+Player: І я радий, папа
+@elseIf RandomValue==4
+Kate.Happy: Дякую, минулий раз ти мені дуже допоміг
+Player: Завжди радий)
+@endIf
+@endIf
+
+
+
+@elseif QuestNumber==1
+Player: Агов є хтось?
+@char Mei.Neutral look:right pos:80,0,0
+Mei.Neutral: О! Привіт, {PlayerName} я тебе чекала
+Player: Ти щось хотіла?
+Mei.Neutral: Так, мені потрібний фіолетовий камінь він зуусрічається у печері. Допоможеш мені? 
+Player: Так звісно)
+Boom!Bomm!Boom!
+Mei.Sad: О ні! Мій проект:(
+Mei.Neutral: Я мушу бігти, перед тим як піди склади будь ласка парні речі разом
+@set QuestNumber=2
+
+@elseIf QuestNumber==2
+@char Mei.Neutral look:right pos:80,0,0
+Mei.Neutral: Ти уже його знайшов?
+Player: Ні
+Mei.Neutral: Тоді поспіши
+
+@elseIf QuestNumber==3
+Player: Хм, її тут немає. Потрібно подивитись у Космічній башні, можливо вона пішла до Kate
+@set QuestNumber=4
+
+@elseIf QuestNumber==4
+Player: Хм, її тут немає. Потрібно подивитись у Космічній башні, можливо вона пішла до Kate
+@endIf
+
+@goto .ChoiseAfterDialog
+
+
+
+
+#ChoiseAfterDialog
+@hideChars
+@hidePrinter 
+@choice  button:QuestLog pos:-880,460 handler:ButtonArea goto:QuestLog.ClickQuestLog
+@choice  button:Map pos:830,410 handler:ButtonArea goto:Map.Map
+
+@stop
