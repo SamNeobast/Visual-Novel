@@ -1,5 +1,5 @@
 # WakeUp
-
+@back Spaceship
 @char Kate.Neutral look:right pos:0,0,7
 Kate.Neutral: {PlayerName}, що ти там бормочеш під ніс
 Player: Нічого просто задрімав

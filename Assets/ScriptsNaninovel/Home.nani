@@ -44,12 +44,16 @@ Player: Агов є хтось?
 @char Mei.Neutral look:right pos:80,0,0
 Mei.Neutral: О! Привіт, {PlayerName} я тебе чекала
 Player: Ти щось хотіла?
-Mei.Neutral: Так, мені потрібний фіолетовий камінь він зуусрічається у печері. Допоможеш мені? 
+Mei.Neutral: Так, мені потрібний фіолетовий камінь він зусрічається у печері. Допоможеш мені? 
 Player: Так звісно)
-Boom!Bomm!Boom!
+Boom!Boom!Boom!
 Mei.Sad: О ні! Мій проект:(
-Mei.Neutral: Я мушу бігти, перед тим як піди склади будь ласка парні речі разом
+Mei.Neutral: Я мушу бігти, перед тим як піти дограй за мене гру
 @set QuestNumber=2
+Player: Ем, добре
+@hideAll
+@MiniGame
+
 
 @elseIf QuestNumber==2
 @char Mei.Neutral look:right pos:80,0,0
@@ -68,9 +72,13 @@ Player: Хм, її тут немає. Потрібно подивитись у �
 @goto .ChoiseAfterDialog
 
 
+#AfterMiniGame
+Player: Це було цікаво, але потрібно йти
+@goto .ChoiseAfterDialog
 
 
 #ChoiseAfterDialog
+@back Home
 @hideChars
 @hidePrinter 
 @choice  button:QuestLog pos:-880,460 handler:ButtonArea goto:QuestLog.ClickQuestLog
