@@ -52,10 +52,7 @@ Mei.Sad: О ні! Мій проект:(
 Mei.Neutral: Я мушу бігти, перед тим як піти дограй за мене гру
 @set QuestNumber=2
 Player: Ем, добре
-@hideAll
-@stopBgm CloudNine
-@bgm JellyRolls
-@MiniGame
+@goto .StartMiniGame
 
 
 @elseIf QuestNumber==2
@@ -74,6 +71,12 @@ Player: Хм, її тут немає. Потрібно подивитись у �
 
 @goto .ChoiseAfterDialog
 
+#StartMiniGame
+@hideAll
+@stopBgm CloudNine
+@bgm JellyRolls
+@MiniGame
+
 
 #AfterMiniGame
 @stopBgm JellyRolls
@@ -88,5 +91,5 @@ Player: Це було цікаво, але потрібно йти
 @hidePrinter 
 @choice  button:QuestLog pos:-880,460 handler:ButtonArea goto:QuestLog.ClickQuestLog
 @choice  button:Map pos:830,410 handler:ButtonArea goto:Map.Map
-
+@choice  button:MiniGameIcon pos:486,58 handler:ButtonArea goto:.StartMiniGame
 @stop
