@@ -42,7 +42,6 @@ MonoBehaviour:
     - ButtonList
     - ButtonArea
     - ChatReply
-    - Zero
     metas:
     - Implementation: Naninovel.UIChoiceHandler, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
@@ -80,19 +79,6 @@ MonoBehaviour:
         - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
       guid: b819dcd2-be5f-441c-a6f0-e8d62d0d4ceb
-      customData:
-        rid: -2
-      WaitHideOnChoice: 0
-    - Implementation: Naninovel.UIChoiceHandler, Elringus.Naninovel.Runtime, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-      Loader:
-        PathPrefix: ChoiceHandlers
-        ProviderTypes:
-        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      guid: 01373d37-e070-4506-ae8f-90233715abab
       customData:
         rid: -2
       WaitHideOnChoice: 0

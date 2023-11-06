@@ -1,0 +1,130 @@
+; Ukrainian <uk> to English <en> localization document for `Home` naninovel script
+
+# 53d7115b
+; Mei.Sad: Чого прийшов?
+Mei.Sad: Why have you come?
+
+# 9ea7fbd7
+; Player: Ем, нічого
+Player: Um, nothing
+
+# 48c68cca
+; Mei.Sad: Тобі щось потрібно від мене
+Mei.Sad: Do you need something from me?
+
+# 6ff922a3
+; Player: Ні, нічого
+Player: No, nothing
+
+# eeb2a018
+; Mei.Sad: По моєму ти не туди прийшов
+Mei.Sad: I think you've come to the wrong place
+
+# 818ff218
+; Player: Вибач, уже йду геть
+Player: Sorry, I'm leaving now
+
+# 97aeda3e
+; Mei.Sad: Не хочу з тобою розмовляти. Йди звідси!
+Mei.Sad: I don't want to talk to you. Go away!
+
+# 818ff218
+; Player: Вибач, уже йду геть
+Player: Sorry, I'm leaving now
+
+# c3ed5cb1
+; Mei.Happy: Як у тебе справи?
+Mei.Happy: How are you?
+
+# f1d0bef
+; Player: Все добре
+Player: Everything's good
+
+# f9700197
+; Mei.Happy: Тобі потрібна допомога?
+Mei.Happy: Do you need help?
+
+# 6ff922a3
+; Player: Ні, нічого
+Player: No, nothing
+
+# d293749b
+; Mei.Happy: Рада тебе бачити, але мушу бігти
+Mei.Happy: Glad to see you, but I have to run
+
+# acd3d245
+; Player: І я радий, папа
+Player: I'm glad too, bye
+
+# ad4c335b
+; Mei.Happy: Дякую, минулий раз ти мені дуже допоміг
+Mei.Happy: Thank you, you helped me a lot last time
+
+# 8b308318
+; Player: Завжди радий)
+Player: Always happy :)
+
+# 65ff312d
+; Player: Агов є хтось?
+Player: Hey, is someone there?
+
+# edbbf7fb
+; Mei.Neutral: О! Привіт, {PlayerName} я тебе чекала
+Mei.Neutral: Oh! Hi, {PlayerName}, I was waiting for you
+
+# 384441bf
+; Player: Ти щось хотіла?
+Player: Did you want something?
+
+# d8f2063f
+; Mei.Neutral: Так, мені потрібний фіолетовий камінь він зусрічається у печері. Допоможеш мені?
+Mei.Neutral: Yes, I need a purple stone found in the cave. Will you help me?
+
+# 52d6f0fa
+; Player: Так звісно)
+Player: Yes, of course :)
+
+# 39b1b517
+; Boom!Boom!Boom!
+
+# b4f856bc
+; Mei.Sad: О ні! Мій проект:(
+Mei.Sad: Oh no! My project:(
+
+# fadecf9e
+; Mei.Neutral: Я мушу бігти, перед тим як піти дограй за мене гру
+Mei.Neutral: I have to run, finish the game for me before I go
+
+# d57ce889
+; Player: Ем, добре
+Player: Um, okay
+
+# f48eacb1
+; Mei.Neutral: Ти уже його знайшов?
+Mei.Neutral: Have you found it yet?
+
+# 3f199de
+; Player: Ні
+Player: No
+
+# cd7065e9
+; Mei.Neutral: Тоді поспіши
+Mei.Neutral: Then hurry
+
+# cebf51eb
+; Player: Хм, її тут немає. Потрібно подивитись у Космічній башні, можливо вона пішла до Kate
+Player: Hmm, she's not here. I need to check the Space Tower; maybe she went to Kate
+
+# cebf51eb
+; Player: Хм, її тут немає. Потрібно подивитись у Космічній башні, можливо вона пішла до Kate
+Player: Hmm, she's not here. I need to check the Space Tower; maybe she went to Kate
+
+# 2dccb732
+; Player: Це було цікаво, але потрібно йти
+Player: It was interesting, but I have to go
+
+# 67e760c1
+; @choice  button:QuestLog pos:-880,460 handler:ButtonArea goto:QuestLog.ClickQuestLog
+
+# 2c704ff
+; @choice  button:Map pos:830,410 handler:ButtonArea goto:Map.Map

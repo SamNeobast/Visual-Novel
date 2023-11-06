@@ -1,0 +1,10 @@
+; Ukrainian <uk> to English <en> localization document for `Title` naninovel script
+
+# e2c1cee6
+; @input PlayerName summary:"Яке твоє ім'я герой?"
+@input PlayerName summary:"What is your hero's name?"
+
+
+# 90f443a5
+; Player: Я всесильний {PlayerName}
+Player: I am all-powerful {PlayerName}

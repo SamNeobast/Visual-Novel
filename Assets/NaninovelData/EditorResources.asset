@@ -154,7 +154,7 @@ MonoBehaviour:
     - name: TipsUI
       pathPrefix: UI
       guid: f5aae572225ee1b4c96d1a17fc5cb073
-    - name: TitleUI
+    - name: MainMenu
       pathPrefix: UI
       guid: 14d0e71b9016444409f6a24c5ac317d6
     - name: VariableInputUI
@@ -227,10 +227,14 @@ MonoBehaviour:
       guid: 77e640698165d9340bf701311d7f0f62
   - Id: Characters/49e0ab31-bed8-4492-944a-9f356cb79bb3
     Resources: []
-  - Id: ChoiceHandlers/01373d37-e070-4506-ae8f-90233715abab
-    Resources:
-    - name: Zero
-      pathPrefix: ChoiceHandlers
-      guid: 
   - Id: Audio
-    Resources: []
+    Resources:
+    - name: CloudNine
+      pathPrefix: Audio
+      guid: 276ebe8929df9d34eb975b5653a1a35c
+    - name: JellyRolls
+      pathPrefix: Audio
+      guid: fe48705847918b64a91274742f84a6e8
+    - name: Wind
+      pathPrefix: Audio
+      guid: 9bdced4f645db664c83cd53d717952fd
