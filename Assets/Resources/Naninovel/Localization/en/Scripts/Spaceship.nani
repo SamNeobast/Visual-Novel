@@ -1,19 +1,24 @@
-; Ukrainian <uk> to English (United Kingdom) <en-GB> localization document for `Spaceship` naninovel script
+; Ukrainian <uk> to English <en> localization document for `Spaceship` naninovel script
 
 # acf856a4
 ; Kate.Neutral: {PlayerName}, що ти там бормочеш під ніс
+Kate.Neutral: {PlayerName}, what are you mumbling under your breath?
 
 # 5fbad739
 ; Player: Нічого просто задрімав
+Player: Nothing, just dozed off
 
 # a5cc9077
 ; Kate.Neutral: Тобі настільки подобається космос, що ти аж заснув?
+Kate.Neutral: Do you like space so much that you fell asleep?
 
 # 2aa1e9f4
 ; Player: Можна і так сказати
+Player: You could say that
 
 # 3f44e7d7
 ; Kate.Neutral: В такому випадку сходи до Mei вона хотіла тебе бачити
+Kate.Neutral: In that case, go to Mei, she wanted to see you
 
 # 1171bed
 ; @choice handler:ButtonArea button:QuestLog pos:-880,460 goto:QuestLog.ClickQuestLog
@@ -23,87 +28,115 @@
 
 # c7e80703
 ; Kate.Sad: Чого прийшов?
+Kate.Sad: Why did you come?
 
 # 9ea7fbd7
 ; Player: Ем, нічого
+Player: Um, nothing
 
 # d281522e
 ; Kate.Sad: Тобі щось потрібно від мене
+Kate.Sad: Do you need something from me?
 
 # 6ff922a3
 ; Player: Ні, нічого
+Player: No, nothing
 
 # 253e31d7
 ; Kate.Sad: По моєму ти не туди прийшов
+Kate.Sad: I think you came to the wrong place
 
 # 818ff218
 ; Player: Вибач, уже йду геть
+Player: Sorry, I'm leaving now
 
 # b56d336
 ; Kate.Sad: Не хочу з тобою розмовляти. Йди звідси!
+Kate.Sad: I don't want to talk to you. Go away!
 
 # 818ff218
 ; Player: Вибач, уже йду геть
+Player: Sorry, I'm leaving now
 
 # 70e485e1
 ; Kate.Happy: Як у тебе справи?
+Kate.Happy: How are you?
 
 # f1d0bef
 ; Player: Все добре
+Player: Everything's fine
 
 # 4e744aaa
 ; Kate.Happy: Тобі потрібна допомога?
+Kate.Happy: Do you need help?
 
 # 6ff922a3
 ; Player: Ні, нічого
+Player: No, nothing
 
 # 38076121
 ; Kate.Happy: Рада тебе бачити, але мушу бігти
+Kate.Happy: Glad to see you, but I have to run
 
 # acd3d245
 ; Player: І я радий, папа
+Player: And I'm happy too, bye
 
 # fab285bd
 ; Kate.Happy: Дякую, минулий раз ти мені дуже допоміг
+Kate.Happy: Thank you, you helped me a lot last time
 
 # 8b308318
 ; Player: Завжди радий)
+Player: Always happy :)
 
 # bbf89472
 ; Player: Яка краса!
+Player: How beautiful!
 
 # ca227aa9
 ; Player: Стоп у мене ж є інші справи
+Player: Wait, I have other things to do
 
 # 13960da1
 ; Player: О, так ти тут. Я уже тебе обшукався
+Player: Oh, there you are. I was looking for you
 
 # 86348e1c
 ; Mei.Neutral: Вибач не думала, що ти так швидко повернешся
+Mei.Neutral: Sorry, didn't think you'd come back so soon
 
 # 10332abe
 ; Kate.Neutral: {PlayerName} доречі чи не міг би ти сходити до печери і принести мені фіолетовий камінь. Він мені дуже потрібен
+Kate.Neutral: {PlayerName}, could you go to the cave and get me a purple stone? I really need it.
 
 # 7edef19c
 ; Player: Mei якраз посилала мене за ним
+Player: Mei just sent me to get it
 
 # 6e10c97c
 ; Kate.Neutral: Будь ласка віддай його мені, а потім можеш і для Mei дістати
+Kate.Neutral: Please give it to me first, then you can get it for Mei
 
 # bcd514f0
 ; Mei.Neutral: Ні це буде не чесно я перша його попросила
+Mei.Neutral: No, it wouldn't be fair, I asked first
 
 # 8fed0202
 ; Кому я хочу віддати камінь?
+Player: Who do I want to give the stone to?
 
 # 1ac690a1
 ; @choice "Віддам Mei" set:RelationsWithKate="Bad";RelationsWithMei="Good"
+ @choice "I will give it to Mei" set:RelationsWithKate="Bad";RelationsWithMei="Good"
 
 # dff5e95b
 ; @choice "Віддам Kate" set:RelationsWithKate="Good";RelationsWithMei="Bad"
+@choice "I will give it to Katya" set:RelationsWithKate="Good";RelationsWithMei="Bad"
 
 # 4e2ceb23
 ; @choice "Залишу собі" set:RelationsWithKate="Bad";RelationsWithMei="Bad"
+@choice "I'll leave it to myself" set:RelationsWithKate="Bad";RelationsWithMei="Bad"
 
 # 1171bed
 ; @choice handler:ButtonArea button:QuestLog pos:-880,460 goto:QuestLog.ClickQuestLog

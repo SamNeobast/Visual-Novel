@@ -1,4 +1,4 @@
-; Ukrainian <uk> to English (United Kingdom) <en-GB> localization document for `AllInOneScipt` naninovel script
+; Ukrainian <uk> to English <en> localization document for `AllInOneScipt` naninovel script
 
 # e2c1cee6
 ; @input PlayerName summary:"Яке твоє ім'я герой?"
@@ -109,13 +109,4 @@
 ; Player: Потрібно знайти фіолетовий камінь
 
 # 759bae66
-; @choice handler:ButtonArea button:Home pos:-580,-160 goto:.Home
-
-# f3331606
-; @choice handler:ButtonArea button:Cave pos:660,-200 goto:.Cave
-
-# a4a9c376
-; @choice handler:ButtonArea button:Spaceship pos:50,-140 goto:.Spaceship
-
-# e4115cba
-; @choice handler:ButtonArea button:QuestLog pos:-880,460 goto:.ClickQuestLogMap1
+; @choice handler:ButtonArea button:Home pos:-580,-160 goto

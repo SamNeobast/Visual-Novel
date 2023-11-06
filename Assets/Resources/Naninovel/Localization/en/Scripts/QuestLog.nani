@@ -1,19 +1,24 @@
-; Ukrainian <uk> to English (United Kingdom) <en-GB> localization document for `QuestLog` naninovel script
+; Ukrainian <uk> to English <en> localization document for `QuestLog` naninovel script
 
 # 3c81739c
 ; Немає активних завдань
+There are no active tasks
 
 # a0ae04b3
 ; Потрібно відвідати Mei, для цього потрібно зайти на карту і обрати будинок
+You need to visit Mei, for this, go to the map and select the house
 
 # a3d8e2f4
 ; Потрібно знайти фіолетовий камінь
+You need to find the purple stone
 
 # ede28d09
 ; Потрібно віднести фіолетовий камінь
+You need to deliver the purple stone
 
 # 332dc96f
 ; Потрібно відвідати Космічну башню
+You need to visit the Space Tower
 
 # a2697c7c
 ; @choice handler:ButtonArea button:QuestLog pos:-880,460 goto:.ClickQuestLog

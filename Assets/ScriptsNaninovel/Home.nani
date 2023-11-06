@@ -23,16 +23,16 @@ Player: Вибач, уже йду геть
 @char Mei.Happy look:right pos:80,0,0
 @set RandomValue=Random(1,4)
 @if RandomValue==1
-Kate.Happy: Як у тебе справи?
+Mei.Happy: Як у тебе справи?
 Player: Все добре
 @elseIf RandomValue==2
-Kate.Happy: Тобі потрібна допомога?
+Mei.Happy: Тобі потрібна допомога?
 Player: Ні, нічого
 @elseIf RandomValue==3
-Kate.Happy: Рада тебе бачити, але мушу бігти
+Mei.Happy: Рада тебе бачити, але мушу бігти
 Player: І я радий, папа
 @elseIf RandomValue==4
-Kate.Happy: Дякую, минулий раз ти мені дуже допоміг
+Mei.Happy: Дякую, минулий раз ти мені дуже допоміг
 Player: Завжди радий)
 @endIf
 @endIf
