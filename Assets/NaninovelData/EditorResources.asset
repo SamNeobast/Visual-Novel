@@ -238,5 +238,3 @@ MonoBehaviour:
     - name: Wind
       pathPrefix: Audio
       guid: 9bdced4f645db664c83cd53d717952fd
-  - Id: CharacterAvatars
-    Resources: []
