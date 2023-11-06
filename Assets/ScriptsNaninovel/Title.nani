@@ -1,4 +1,5 @@
 @back Spaceship
+@bgm CloudNine
 @input PlayerName summary:"Яке твоє ім'я герой?"
 @stop
 Player: Я всесильний {PlayerName}

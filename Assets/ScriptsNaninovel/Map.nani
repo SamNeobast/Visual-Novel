@@ -1,5 +1,7 @@
 # Map
 @back City
+@stopBgm Wind
+@bgm CloudNine
 @hideChars
 @hidePrinter
 @if "QuestNumber==3 || QuestNumber==4"

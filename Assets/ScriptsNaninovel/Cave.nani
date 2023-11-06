@@ -1,5 +1,8 @@
 # Cave
 @back Cave
+
+@stopBgm CloudNine
+@bgm Wind
 @if QuestNumber==0
 Можливо варто знайти ще фіолетових камінців?
 @choice "Шукати" goto:.Finding

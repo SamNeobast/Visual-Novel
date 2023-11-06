@@ -1,5 +1,6 @@
 # Home
 @back Home
+@bgm CloudNine
 
 @if QuestNumber==0
 @if RelationsWithMei=="Bad"
@@ -52,6 +53,8 @@ Mei.Neutral: Я мушу бігти, перед тим як піти догра�
 @set QuestNumber=2
 Player: Ем, добре
 @hideAll
+@stopBgm CloudNine
+@bgm JellyRolls
 @MiniGame
 
 
@@ -73,6 +76,8 @@ Player: Хм, її тут немає. Потрібно подивитись у �
 
 
 #AfterMiniGame
+@stopBgm JellyRolls
+@bgm CloudNine
 Player: Це було цікаво, але потрібно йти
 @goto .ChoiseAfterDialog
 

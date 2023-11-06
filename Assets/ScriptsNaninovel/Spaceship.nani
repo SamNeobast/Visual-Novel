@@ -1,5 +1,6 @@
 # WakeUp
 @back Spaceship
+@bgm CloudNine
 @char Kate.Neutral look:right pos:0,0,7
 Kate.Neutral: {PlayerName}, що ти там бормочеш під ніс
 Player: Нічого просто задрімав
@@ -16,6 +17,7 @@ Kate.Neutral: В такому випадку сходи до Mei вона хот
 
 # Spaceship
 @back Spaceship
+@bgm CloudNine
 
 @if QuestNumber==0
 @if RelationsWithKate=="Bad"
