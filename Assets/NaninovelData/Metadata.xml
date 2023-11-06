@@ -316,10 +316,6 @@
         &lt;Type&gt;UI&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
-        &lt;Path&gt;QuestLog&lt;/Path&gt;
-        &lt;Type&gt;UI&lt;/Type&gt;
-      &lt;/Resource&gt;
-      &lt;Resource&gt;
         &lt;Path&gt;Title&lt;/Path&gt;
         &lt;Type&gt;Scripts&lt;/Type&gt;
       &lt;/Resource&gt;
