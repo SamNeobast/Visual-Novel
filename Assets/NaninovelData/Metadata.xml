@@ -57,11 +57,6 @@
         &lt;Appearances /&gt;
       &lt;/Actor&gt;
       &lt;Actor&gt;
-        &lt;Id&gt;Zero&lt;/Id&gt;
-        &lt;Type&gt;ChoiceHandlers&lt;/Type&gt;
-        &lt;Appearances /&gt;
-      &lt;/Actor&gt;
-      &lt;Actor&gt;
         &lt;Id&gt;Dialogue&lt;/Id&gt;
         &lt;Type&gt;TextPrinters&lt;/Type&gt;
         &lt;Appearances /&gt;
@@ -300,7 +295,7 @@
         &lt;Type&gt;UI&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
-        &lt;Path&gt;TitleUI&lt;/Path&gt;
+        &lt;Path&gt;MainMenu&lt;/Path&gt;
         &lt;Type&gt;UI&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
@@ -383,6 +378,18 @@
         &lt;Path&gt;City&lt;/Path&gt;
         &lt;Type&gt;Backgrounds/MainBackground&lt;/Type&gt;
       &lt;/Resource&gt;
+      &lt;Resource&gt;
+        &lt;Path&gt;CloudNine&lt;/Path&gt;
+        &lt;Type&gt;Audio&lt;/Type&gt;
+      &lt;/Resource&gt;
+      &lt;Resource&gt;
+        &lt;Path&gt;JellyRolls&lt;/Path&gt;
+        &lt;Type&gt;Audio&lt;/Type&gt;
+      &lt;/Resource&gt;
+      &lt;Resource&gt;
+        &lt;Path&gt;Wind&lt;/Path&gt;
+        &lt;Type&gt;Audio&lt;/Type&gt;
+      &lt;/Resource&gt;
     &lt;/Resources&gt;
     &lt;Constants&gt;
       &lt;Constant&gt;
@@ -406,6 +413,7 @@
         &lt;Name&gt;Labels/Cave&lt;/Name&gt;
         &lt;Values&gt;
           &lt;string&gt;Cave&lt;/string&gt;
+          &lt;string&gt;ChoiseStone&lt;/string&gt;
           &lt;string&gt;ChoiseAfterDialog&lt;/string&gt;
           &lt;string&gt;Finding&lt;/string&gt;
         &lt;/Values&gt;
@@ -414,6 +422,7 @@
         &lt;Name&gt;Labels/Home&lt;/Name&gt;
         &lt;Values&gt;
           &lt;string&gt;Home&lt;/string&gt;
+          &lt;string&gt;StartMiniGame&lt;/string&gt;
           &lt;string&gt;AfterMiniGame&lt;/string&gt;
           &lt;string&gt;ChoiseAfterDialog&lt;/string&gt;
         &lt;/Values&gt;

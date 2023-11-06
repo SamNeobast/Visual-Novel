@@ -32,7 +32,7 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
     guid: fd200bc6-8b19-42d6-bf3d-4e97c3e96724
     customData:
-      id: 0
+      rid: -2
     Pivot: {x: 0.5, y: 0}
     PixelsPerUnit: 100
     EnableDepthPass: 1
@@ -48,9 +48,9 @@ MonoBehaviour:
       height: 1
     BakedLookDirection: 1
     DisplayName: 
-    UseCharacterColor: 0
+    UseCharacterColor: 1
     NameColor: {r: 1, g: 1, b: 1, a: 1}
-    MessageColor: {r: 1, g: 1, b: 1, a: 1}
+    MessageColor: {r: 0.22789249, g: 0.5566038, b: 0.23733525, a: 1}
     HighlightWhenSpeaking: 0
     HighlightCharacterCount: 0
     SpeakingPose: 
@@ -80,7 +80,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       guid: 49e0ab31-bed8-4492-944a-9f356cb79bb3
       customData:
-        id: 0
+        rid: -2
       Pivot: {x: 0.5, y: 0}
       PixelsPerUnit: 100
       EnableDepthPass: 1
@@ -122,7 +122,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       guid: e33e60aa-376d-468a-9862-79e90640addc
       customData:
-        id: 0
+        rid: -2
       Pivot: {x: 0.5, y: 0}
       PixelsPerUnit: 100
       EnableDepthPass: 1
@@ -164,7 +164,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       guid: d34dedac-f9fd-4da9-b879-ee1d52ec432e
       customData:
-        id: 0
+        rid: -2
       Pivot: {x: 0.2, y: 0}
       PixelsPerUnit: 170
       EnableDepthPass: 1
@@ -204,6 +204,7 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
   SharedPoses: []
   references:
-    version: 1
-    00000000:
+    version: 2
+    RefIds:
+    - rid: -2
       type: {class: , ns: , asm: }
